@@ -2,15 +2,9 @@
 
 ## Abans de publicar
 
-Revisa que el repositori no contingui:
+Revisa que els arxius no tinguin errors o avisos de format, a l'editor Visual Code són els avisos que apareixen en la part inferior de la pantalla. D'aquesta manera, evitaràs haver de fer commits simplement per corregir errors de format.
 
-- Contrasenyes o frases secretes.
-- Tokens d'accés o claus privades.
-- Fitxers `.env` amb credencials.
-- Adreces personals o dades d'altres persones sense permís.
-- Captures amb informació sensible.
-
-Si has publicat un secret, no n'hi ha prou amb esborrar el fitxer: cal revocar o canviar el secret i avisar el professorat.
+Recordeu que el commit necessita un text clar i concís, que expliqui què s'ha fet. Evita missatges com "canvis" o "actualització", ja que no aporten informació útil. Un bon exemple seria: "Afegit fitxer README.md amb la documentació del projecte".
 
 ## Diagnosi ordenada
 
