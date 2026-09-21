@@ -45,8 +45,6 @@ La durada total és de **12 hores**, distribuïdes en **dues setmanes**, amb **3
 | 2 | 5 | Activitat 3 | Disseny del perfil i edició local | Perfil professional en construcció |
 | 2 | 6 | Activitat 3 | Publicació, revisió i presentació | Repositori de perfil acabat |
 
-> La referència a "3 sessions de 2 hores" s'interpreta com 3 sessions per setmana. Si el centre només disposa de tres sessions totals, caldrà reduir l'abast a 6 hores o duplicar la durada de cada sessió.
-
 ## Metodologia
 
 El projecte combina demostracions curtes del professorat, pràctica guiada i treball individual. Cada alumne treballa amb el seu compte i repositori, però les comprovacions entre iguals serveixen per detectar errors i millorar la documentació.
@@ -93,7 +91,7 @@ Per superar el projecte, cal publicar el repositori i poder explicar el recorreg
 - Compte de GitHub.
 - Git instal·lat.
 - Visual Studio Code instal·lat.
-- Les guies de la carpeta `guias/`.
+- Les guies de la carpeta `guies/`.
 
 ## Resultat final esperat
 
