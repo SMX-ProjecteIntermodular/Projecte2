@@ -67,13 +67,13 @@ Seqüència de treball recomanada:
 
 ## Avaluació
 
-| Criteri | Pes |
-|---|---:|
-| Compte, configuració i ús responsable de GitHub | 15% |
+| Criteri                                              | Pes |
+|---                                                   |---: |
+| Compte, configuració i ús responsable de GitHub      | 15% |
 | Ús correcte de Git local i sincronització amb GitHub | 30% |
-| Estructura i sintaxi Markdown | 20% |
+| Estructura i sintaxi Markdown                        | 20% |
 | Qualitat i professionalitat del repositori de perfil | 25% |
-| Historial de commits, autonomia i autoavaluació | 10% |
+| Historial de commits, autonomia i autoavaluació      | 10% |
 
 Per superar el projecte, cal publicar el repositori i poder explicar el recorregut d'un canvi: edició, estat, preparació, commit i sincronització.
 
