@@ -102,7 +102,7 @@ La sintaxi d'una imatge és semblant a la d'un enllaç, però comença amb `!`:
 
 El text entre claudàtors és el text alternatiu. Ha de descriure la imatge perquè el contingut sigui més accessible i també es pugui entendre si la imatge no es carrega.
 
-Evita pujar imatges innecessàriament grans. Desa-les en una carpeta com `media/` i utilitza una ruta relativa quan la imatge formi part del repositori.
+Evita pujar imatges innecessàriament grans, en aquests casos és millor utilitzar una imatge més petita o un enllaç a la imatge externa a [Flickr](https://www.flickr.com/), [Unsplash](https://unsplash.com/) o [Pexels](https://www.pexels.com/), per exemple. Desa-les en una carpeta com `media/` i utilitza una ruta relativa quan la imatge formi part del repositori.
 
 ## Codi
 
