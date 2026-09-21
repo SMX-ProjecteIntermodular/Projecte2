@@ -34,28 +34,20 @@ En acabar el projecte, l'alumne ha de poder:
 
 ## Organització i durada
 
-La durada total és de **12 hores**, distribuïdes en **dues setmanes**, amb **3 sessions de 2 hores cada setmana**. En total són 6 sessions.
+La durada total és de **12 hores**, distribuïdes en **dues setmanes**, amb **3 sessions de 2 hores cada setmana**.
 
-| Setmana | Sessió | Activitat | Continguts principals | Producte |
-|---|---:|---|---|---|
-| 1 | 1 | Activitat 1 | Compte, seguretat i instal·lació | Compte creat i eines preparades |
-| 1 | 2 | Activitat 1 | Repositori, clonació i primer `push` | Primer repositori sincronitzat |
-| 1 | 3 | Activitat 2 | Sintaxi Markdown amb VS Code | Document Markdown complet |
-| 2 | 4 | Activitat 2 | Git local i historial | Historial de commits coherent |
-| 2 | 5 | Activitat 3 | Disseny del perfil i edició local | Perfil professional en construcció |
-| 2 | 6 | Activitat 3 | Publicació, revisió i presentació | Repositori de perfil acabat |
+| Setmana | Sessió | Activitat   | Continguts                           | Producte                           |
+|---      |---:    |---          |---                                   |---                                 |
+| 1       | 1      | Activitat 1 | Compte, seguretat i instal·lació     | Compte creat i eines preparades    |
+| 1       | 2      | Activitat 1 | Repositori, clonació i primer `push` | Primer repositori sincronitzat     |
+| 1       | 3      | Activitat 2 | Sintaxi Markdown amb VS Code         | Document Markdown complet          |
+| 2       | 4      | Activitat 2 | Git local i historial                | Historial de commits coherent      |
+| 2       | 5      | Activitat 3 | Disseny del perfil i edició local    | Perfil professional en construcció |
+| 2       | 6      | Activitat 3 | Publicació, revisió i presentació    | Repositori de perfil acabat        |
 
 ## Metodologia
 
 El projecte combina demostracions curtes del professorat, pràctica guiada i treball individual. Cada alumne treballa amb el seu compte i repositori, però les comprovacions entre iguals serveixen per detectar errors i millorar la documentació.
-
-Seqüència de treball recomanada:
-
-1. El professorat mostra una operació.
-2. L'alumnat la reprodueix en un repositori de pràctiques.
-3. L'alumnat comprova el resultat i documenta què ha fet.
-4. Es fa una revisió breu amb una parella.
-5. Es registra el canvi amb un commit.
 
 ## Evidències que cal lliurar
 
@@ -79,9 +71,9 @@ Per superar el projecte, cal publicar el repositori i poder explicar el recorreg
 
 ## Normes de seguretat i convivència digital
 
-- No publicar contrasenyes, tokens, claus SSH privades ni dades personals innecessàries.
+- Crear un un compte de GitHub amb un nom d'usuari adient i descriptiu.
 - Fer servir una adreça de correu adequada per a l'activitat acadèmica.
-- Revisar que un repositori sigui públic abans de publicar-hi informació personal.
+- Revisar la visibilitat dels repositoris.
 - Utilitzar noms de fitxer i missatges de commit clars i respectuosos.
 - No copiar un perfil sencer d'una altra persona: es poden consultar exemples, però el contingut ha de ser propi.
 
