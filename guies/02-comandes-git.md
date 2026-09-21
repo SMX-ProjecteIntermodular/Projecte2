@@ -1,64 +1,92 @@
-# Guia 2. Comandes bàsiques de Git
+# Guia 2. Treballant en el repositori amb Git
 
-Executa les ordres des de la carpeta del repositori. Pots fer la mateixa operació des de la interfície de Visual Studio Code.
+A la Guia 1 hem vist com crear un compte a GitHub i com crear un primer repositori i com clonar aquest repositori a l'ordinador. En aquesta guia veurem com treballar amb Git per a gestionar els canvis i sincronitzar-los amb el repositori remot de GitHub.
 
-| Ordre | Funció |
-|---|---|
-| `git status` | Mostra l'estat dels fitxers i la branca actual |
-| `git diff` | Mostra canvis encara no preparats |
-| `git add fitxer` | Prepara un fitxer per al proper commit |
-| `git add .` | Prepara tots els canvis de la carpeta actual; usa'l amb atenció |
-| `git commit -m "Missatge"` | Desa un punt de l'historial |
-| `git log --oneline` | Mostra l'historial resumit |
-| `git show` | Mostra el contingut d'un commit |
-| `git remote -v` | Mostra els repositoris remots configurats |
-| `git push` | Publica commits locals al remot |
-| `git pull` | Descarrega i integra canvis del remot |
+## Edició en local i control de versions
 
-## El cicle de tres zones
+Un cop teniu el fitxer `README.md` al vostre ordinador, podeu començar a editar-lo, així mateix afegirem nous fitxers: de text, imatges, etc. Recordeu que Git funciona com una "màquina del temps". Per desar un canvi oficialment, hem de passar per dues etapes:
 
-```text
-Working tree       ->      Staging area       ->      Repository
-fitxers editats            git add                   git commit
+### El cicle de treball (Add i Commit)
+
+Els canvis que feu als fitxers no es guarden automàticament al vostre historial de versions, sinó que hi ha dues etapes: el staging o "zona de preparació" (Add) i el repositori.
+
+El staging és com una llista de coses que voleu incloure en la propera "foto" del vostre projecte. Allà podem anar afegint els arxius que s'han modificat o creat de nous. Té l'avantatge que podem anar afegint conforme anem treballant, i després fer un sol commit amb tots els canvis.
+
+El commit és l'acció de "fer una foto" del projecte en aquell moment. Aquí és on posem una etiqueta descriptiva per recordar què hem fet. Els diferents commits formen l'historial del projecte i s'identifiquen amb un codi únic (hash).
+
+```plain
+           ┌────────────────────┐
+           │  Working Directory │
+           │ (fitxers editats)  │
+           └─────────┬──────────┘
+                     │  git add
+                     ▼
+           ┌────────────────────┐
+           │    Staging Area    │
+           │ (fitxers preparats)│
+           └─────────┬──────────┘
+                     │ git commit
+                     ▼
+           ┌────────────────────┐
+           │     Repository     │   
+           │ (historial segur)  │ 
+           └─────────┬──────────┘
+                     │ git checkout
+                     ▼
+           ┌────────────────────┐
+           │  Working Directory │
+           └────────────────────┘
 ```
 
-`git status` indica en quina zona es troba cada canvi. Un fitxer no forma part del commit fins que s'ha preparat amb `git add`.
+A més, la sincronització amb el repositori remot (GitHub) es fa amb les comandes `git push` (per pujar canvis) i `git pull` (per baixar canvis).
 
-## Exemple complet
+### Add i Commit per per terminal
 
-```bash
-git status
-# edita un fitxer
-git diff
-git add README.md
-git status
-git commit -m "Actualitza documentacio"
-git log --oneline -3
-git push
+1. Afegir els canvis a la zona de preparació (Staging Area):  
+   Això indica a Git quins fitxers volem incloure en la següent "foto".  
+
+   ```Bash  
+   git add nom_del_fitxer.md  
+   # O per afegir-ho tot:  
+   git add .
+   ```
+
+2. Confirmar els canvis (Commit):  
+   Aquí posem una etiqueta al nostre canvi. Sigues descriptiu\!  
+
+    ```Bash  
+    git commit -m "Afegit apartat d'instal·lació a la guia"
+    ```
+
+### Add i Commit per VS Code
+
+El primer caldrà fer, és definir l'usuari de Git (un nom i un correu) que serveix per identificar els nostres commits. Com que a l'ordinador de l'escola no tenim permisos per definir la configuració global, ho per cada repositori:
+
+Obriu la terminal integrada a VS Code (Ctrl + ñ) i executeu:
+
+```Bash
+git config user.name "El teu Nom"
+git config user.email elteumail
 ```
 
-## Desfer o corregir amb prudència
+Veureu que a la barra lateral esquerra hi ha una icona amb tres cercles i línies (Control de Codi Font o Ctrl + Shift + G).
 
-Si només vols treure un fitxer de la zona de preparació, sense perdre el contingut:
+A mesura que modifiqueu els fitxers .md, aquests apareixeran a la llista de "Canvis" (Changes).
 
-```bash
-git restore --staged README.md
-```
+![VS Code Git](img/VCodeGit.png)
 
-Si vols descartar canvis locals d'un fitxer, atura't i comprova abans què perdràs. Aquesta ordre elimina canvis no commitats:
+- **Afegir els canvis (Add / Staging):**
 
-```bash
-git restore README.md
-```
+    Al costat del nom del fitxer que heu editat, apareixerà una icona d'un més (+).
 
-Durant les primeres pràctiques, demana ajuda abans d'utilitzar ordres que eliminin fitxers o reescriguin l'historial.
+    Si premeu el +, el fitxer passarà a la secció "Canvis preparats" (Staged Changes). Això equival a fer un git add.
 
-## Bons missatges de commit
+    ![VS Code Add](img/VCodeAdded.png)
 
-Un bon missatge explica què ha canviat:
+- **Confirmar els canvis (Commit):**
 
-- `Afegeix estructura del perfil`
-- `Completa instruccions de xarxa`
-- `Corregeix enllaç a la documentació`
+    A la part superior del panell veureu un quadre de text que diu "Missatge". Escriviu què heu fet (ex: Afegit apartat VS Code).
 
-Evita missatges com `canvis`, `prova` o `coses`, perquè no ajuden a entendre l'historial.
+    Premeu el botó blau que diu "Confirmar" (Commit). Ara el canvi ja està guardat al vostre historial local.
+
+    ![VS Code commit dialog showing blue Commit button in the source control panel, with a commit message field above it and staged changes listed below](img/VCodeCommit.png)

@@ -1,10 +1,14 @@
 # Projecte intermodular: El meu perfil professional amb Git i GitHub
 
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+
 ## Presentació
 
 En el món dels sistemes microinformàtics i les xarxes, els tècnics treballen sovint amb fitxers de configuració, scripts, documentació i projectes que evolucionen amb el temps. Git permet registrar aquests canvis, recuperar versions anteriors i treballar amb més seguretat. GitHub afegeix un espai remot per compartir codi i documentació, col·laborar amb altres persones i construir una mostra pública del propi treball.
 
-Aquest projecte és una primera aproximació pràctica a Git, GitHub, Visual Studio Code i Markdown. El producte final serà un repositori de perfil professional que l'alumne podrà continuar millorant durant el cicle.
+![Git i GitHub](./media/projecte2_01.png)
+
+Aquest projecte és una primera aproximació pràctica a Git, GitHub, Visual Studio Code i Markdown. Al llarg del curs, treballarem habitualment amb aquestes eines, i aquest segon projecte serveix per introduir-vos a aquestes tecnologies i a la metodologia de treball que utilitzarem.
 
 ## Repte
 
@@ -32,6 +36,13 @@ En acabar el projecte, l'alumne ha de poder:
 7. Consultar l'historial de canvis i corregir errors senzills.
 8. Publicar una presentació professional en un repositori de GitHub.
 
+## Resultats d'aprenentatge i criteris d'avaluació
+
+RA5. Transmet informació amb claredat, de manera ordenada i estructurada.
+
+5.1 Manté una actitud ordenada i metòdica en la transmissió de la informació.
+5.3 Transmet informació entre els membres del grup utilitzant mitjans informàtics.
+
 ## Organització i durada
 
 La durada total és de **12 hores**, distribuïdes en **dues setmanes**, amb **3 sessions de 2 hores cada setmana**.
@@ -45,23 +56,21 @@ La durada total és de **12 hores**, distribuïdes en **dues setmanes**, amb **3
 | 2       | 5      | Activitat 3 | Disseny del perfil i edició local    | Perfil professional en construcció |
 | 2       | 6      | Activitat 3 | Publicació, revisió i presentació    | Repositori de perfil acabat        |
 
-## Metodologia
-
-El projecte combina demostracions curtes del professorat, pràctica guiada i treball individual. Cada alumne treballa amb el seu compte i repositori, però les comprovacions entre iguals serveixen per detectar errors i millorar la documentació.
+Equip de treball: grups de 2 o 3 alumnes. Cada grup ha de crear un Kanban per a organitzar les tasques i fer un seguiment del projecte.
 
 ## Evidències que cal lliurar
 
-- Enllaç al repositori final de GitHub.
-- Captura o demostració del repositori obert amb Visual Studio Code.
-- Historial amb, com a mínim, 5 commits descriptius.
-- Document Markdown de l'activitat 2.
-- Autoavaluació final breu: què sé fer, què em costa i quin pas següent faré.
+- Enllaç al vostre compte de GitHub.
+- Repositori corresponent a l'activitat 2, que tingui els següents requisits:
+  - Historial amb, com a mínim, 5 commits descriptius.
+  - Document en format Markdown, correctament estructurat i amb contingut rellevant.
+- Enllaç al Kanban grupal.
 
 ## Avaluació
 
 | Criteri                                              | Pes |
 |---                                                   |---: |
-| Compte, configuració i ús responsable de GitHub      | 15% |
+| Compte i configuracióde GitHub                       | 15% |
 | Ús correcte de Git local i sincronització amb GitHub | 30% |
 | Estructura i sintaxi Markdown                        | 20% |
 | Qualitat i professionalitat del repositori de perfil | 25% |

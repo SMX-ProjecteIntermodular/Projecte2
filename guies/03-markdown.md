@@ -1,4 +1,4 @@
-# Guia 4. Markdown per treballar amb repositoris
+# Guia 3. Markdown per treballar amb repositoris
 
 Markdown és un llenguatge senzill per donar format al text amb fitxers que tenen l'extensió `.md`. GitHub i Visual Studio Code el mostren amb format quan obres, per exemple, el fitxer `README.md`.
 
