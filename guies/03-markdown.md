@@ -1,8 +1,10 @@
 # Guia 3. Markdown per treballar amb repositoris
 
-Markdown és un llenguatge senzill per donar format al text amb fitxers que tenen l'extensió `.md`. GitHub i Visual Studio Code el mostren amb format quan obres, per exemple, el fitxer `README.md`.
+Markdown és el llenguatge que s'utilitza per donar format al text amb fitxers que tenen l'extensió `.md`. GitHub i Visual Studio Code el mostren amb format quan obres, per exemple, el fitxer `README.md`.
 
-L'objectiu no és memoritzar-ho tot: escriu el contingut, previsualitza'l i comprova que es llegeix bé.
+Markdown és un llenguatge de marcatge lleuger, creat al 2004 per John Gruber amb l'objectiu de crear un llenguatge que fos fàcil de llegir i escriure i al mateix temps poder ser convertit en HTML, evitant la complexitat de l'HTML. Markdown és molt utilitzat per a documentació, blogs i fòrums, i és compatible amb moltes plataformes, com ara GitHub, Reddit i Stack Overflow. A més, és compatible amb molts editors de text i IDEs, com Visual Studio Code, Atom i Sublime Text.
+
+En aquesta guia explicarem les principals característiques de Markdown i com utilitzar-les per crear documentació clara i ben estructurada per als vostres projectes.
 
 ## Títols i seccions
 
@@ -210,4 +212,10 @@ Abans de fer `commit` i `push`:
 - Posar secrets, contrasenyes o tokens en un exemple publicat.
 - Fer servir HTML complex quan Markdown ja resol la necessitat.
 
-Markdown és flexible, però la visualització pot variar entre GitHub, Visual Studio Code i altres eines. Per això, previsualitza el document en el lloc on es publicarà i mantén la sintaxi senzilla.
+## Editor específics per Markdown
+
+Tot i que tots els editors de codi i IDE permeten escriure fitxers Markdown (Visual Studio Code, Atom, Sublime Text, etc.), també existeixen editors específics per a Markdown, com [Typora](https://typora.io/), [Mark Text](https://marktext.app/), [Obsidian](https://obsidian.md/) o [SoloMD](https://solomd.app/). Aquests editors ofereixen una previsualització en temps real i altres funcionalitats que poden ser útils per a la creació de documentació.
+
+Si heu de treballar amb Markdown i no disposeu d'un editor específic, podeu utilitzar un editor en línia com [Dillinger](https://dillinger.io/) o [StackEdit](https://stackedit.io/). Aquests editors permeten escriure i previsualitzar Markdown directament al navegador, sense necessitat d'instal·lar cap programari addicional.
+
+> 💡 Google Docs inclou Markdown en els formats permesos per exportar un document.
