@@ -72,9 +72,8 @@ Equip de treball: grups de 2 o 3 alumnes. Cada grup ha de crear un Kanban per a 
 
 - Enllaç al vostre compte de GitHub.
 - Repositori corresponent a l'activitat 2, que tingui els següents requisits:
-  - Historial amb, com a mínim, 5 commits descriptius.
+  - Historial amb, com a mínim, 4 commits descriptius.
   - Document en format Markdown, correctament estructurat i amb contingut rellevant.
-- Enllaç al Kanban grupal.
 
 ## Avaluació
 
