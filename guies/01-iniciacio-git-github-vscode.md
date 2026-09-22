@@ -11,7 +11,7 @@ I per què en cal un control de versions? Doncs per diversos motius:
 - **Reversió**: Permet revertir a versions anteriors del projecte si és necessari
 - **Còpia de seguretat**: Permet tenir una còpia de seguretat del projecte en cas de pèrdua de dades.
 
-No usar control de versions, provoca que per evitar problemes a l'hora de modificar arxius i no voler perdre l'estat actual, ens porta a solucions com per exemple crear carpetes per cada estat del projecte o anar reanomenant els fitxers amb dates i hores, que són poc pràctiques i poden portar a errors i confusions.
+No usar control de versions, provoca que per evitar problemes a l'hora de modificar arxius i no voler perdre l'estat actual, cal usar solucions com, per exemple, crear carpetes per cada estat del projecte o anar reanomenant els fitxers amb dates i hores, que són poc pràctiques i poden portar a errors i confusions.
 
 ## Git
 
@@ -29,11 +29,13 @@ git --version
 
 Si Git està instal·lat, veureu la versió de Git que teniu instal·lada. Si no està instal·lat, veureu un missatge d'error indicant que la comanda no es troba.
 
-En equips amb Windows, és probable que no tingueu Git instal·lat. Podeu descarregar-lo des de la pàgina oficial de [Git](https://git-scm.com/download/win). Un cop descarregat, executeu l'instal·lador i seguiu les instruccions per a instal·lar Git al vostre ordinador. També el podeu instal·lar mitjançant el gestor de paquets `Winget` amb la comanda següent:
+En equips amb Windows, per defecte Git no està instal·lat. Podeu descarregar-lo des de la pàgina oficial de [Git](https://git-scm.com/download/win). Un cop descarregat, executeu l'instal·lador i seguiu les instruccions per a instal·lar Git al vostre ordinador. També el podeu instal·lar mitjançant el gestor de paquets `Winget` amb la comanda següent:
 
 ```Powershell
 winget install Git
 ```
+
+> ⚠️ Als ordinadors de l'escola, Git ja està instal·lat, així que no cal que el torneu a instal·lar.
 
 ### Conceptes bàsics de Git
 
@@ -51,6 +53,8 @@ A l'hora de treballar amb Git, hi ha tres estats principals:
 ![Estats de Git](./img/estats_git.png)
 
 Això vol dir que quan modifiqueu un fitxer al directori de treball, primer heu de preparar-lo per a ser inclòs en el proper commit (afegir-lo a l'àrea d'escenari) i després fer el commit per a guardar els canvis al repositori. Per tant, en un moment donat, un fitxer pot tenir diferents versions en els diferents estats.
+
+Al principi costa entendre aquesta idea que el contingut d'una carpeta (projecte) pugui tenir diferents versions simultàniament, però això és precisament el que fa que Git sigui tan útil.
 
 ### Configuracions inicials de Git
 

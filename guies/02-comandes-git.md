@@ -60,7 +60,7 @@ A més, la sincronització amb el repositori remot (GitHub) es fa amb les comand
 
 ### Add i Commit per VS Code
 
-El primer caldrà fer, és definir l'usuari de Git (un nom i un correu) que serveix per identificar els nostres commits. Com que a l'ordinador de l'escola no tenim permisos per definir la configuració global, ho per cada repositori:
+El primer caldrà fer, és definir l'usuari de Git (un nom i un correu) que serveix per identificar els nostres commits. Com que a l'ordinador de l'escola no tenim permisos per definir la configuració global, ho heu de repetir per a cada repositori:
 
 Obriu la terminal integrada a VS Code (Ctrl + ñ) i executeu:
 
@@ -135,7 +135,7 @@ Això desfarà l'últim commit però mantindrà els canvis a la zona de preparac
 
 >**Nota**: Si volem retornar a un commit anterior i descartar tots els canvis posteriors, podem utilitzar `git reset --hard <hash_del_commit>` per terminal. Això eliminarà tots els canvis posteriors al commit especificat. En el cas de VS Code, aquesta opció no està disponible directament a la interfície gràfica, però amb el complement `Git Graph` es pot fer de manera visual.
 
-## 3\. Sincronització amb el Repositori Remot
+## Sincronització amb el Repositori Remot
 
 El vostre ordinador (Local) i GitHub (Remot) han d'estar sincronitzats.
 
@@ -162,9 +162,9 @@ Fixeu-vos en la barra d'estat (la part inferior blava de l'editor). Allà veureu
 
 ![VS Code Status Bar](img/VCodeStatusBar.png)
 
->**Important:** Feu sincronitzeu SEMPRE abans de començar a escriure. Us estalviareu el 90% dels conflictes!
+>**Important:** **Sincronitzeu SEMPRE abans de començar a treballar**. Us estalviareu el 90% dels conflictes!
 
-## 4\. Gestió de Conflictes
+## Gestió de Conflictes
 
 Un conflicte apareix s'ha editat **la mateixa línia** del mateix fitxer i intentes fusionar els canvis. Git no sap quina versió és la bona i es queda "parat". Un cas habitual és quan es van fer canvis al fitxer que es van pujar a GitHub, i ara has modificat el mateix arxiu, però no has fet Pull abans de començar a treballar, de manera que hi ha dues versions diferents.
 
@@ -183,4 +183,4 @@ Dins del fitxer, veureu botons a sobre del text que diuen:
 - Accept Both Changes: Posa un text sota l'altre.
 ```
 
-Un cop triat, prem el `+` al panell de control de versions per marcar-lo com a resolt, fes el commit i després sincronitza els canvis.
+Un cop triat, prem el `+` al panell de control de versions per afegir els canvis al staging area (`add`), fes el commit i després sincronitza els canvis amb GitHub.
