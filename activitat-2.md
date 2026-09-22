@@ -33,6 +33,7 @@ m) Organitzar i desenvolupar el treball assignat mantenint unes relacions profes
 ### Continguts
 
 - Control de versions.
+- Edició de documentació tècnica amb Markdown.
 
 ### Capacitats clau
 

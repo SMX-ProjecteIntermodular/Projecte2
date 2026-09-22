@@ -1,110 +1,104 @@
 # Activitat 3. El meu repositori de perfil professional
 
-**Durada:** 4 hores, en 2 sessions de 2 hores  
-**Modalitat:** projecte individual i presentació breu  
-**Prerequisits:** Activitats 1 i 2 finalitzades
+## Presentació de l'activitat
 
-## Repte
+En aquesta activitat crearem el nostre repositori de perfil professional a GitHub, utilitzant Visual Studio Code i Markdown. L'objectiu és construir una pàgina personal on ens presentem com a futurs tècnics o tècniques de sistemes microinformàtics i xarxes, mostrant les nostres habilitats, interessos i projectes.
 
-Transformaràs el repositori creat a l'activitat 1 en una carta de presentació professional. El resultat ha de permetre que una persona que no et coneix entengui què estàs estudiant, què saps fer i cap a on vols avançar.
+Aquesta eina ens permet mostrar al món digital qui som, què estem aprenent i quines competències volem desenvolupar. El repositori no només serà un espai per guardar informació, sinó també una carta de presentació professional que pot servir en el futur per compartir el nostre treball amb professors, companys i possibles empreses.
 
-## Estructura mínima del `README.md`
+![GitHub Profile README](./media/projecte2_02.png)
 
-```markdown
-# Nom o àlies professional
+A les activitats anteriors ja heu creat els vostre repositori i heu practicat l'edició en format Markdown, així com la gestió de l'historial de canvis amb Git. Ara és el moment d'aplicar aquests coneixements per crear un repositori que reflecteixi la vostra identitat professional i acadèmica.
 
-Una frase de presentació.
+### Durada de l'activitat
 
-## Sobre mi
+- 4 hores (dues sessions de 2 hores).
 
-## Què estic aprenent
+### Objectius de l'activitat
 
-## Tecnologies
+- Creació del perfil professional a GitHub.
 
-- Tecnologia 1
-- Tecnologia 2
+### Competències treballades
 
-## Projectes i pràctiques
+m) Organitzar i desenvolupar el treball assignat mantenint unes relacions professionals adequades en l’entorn de treball.
 
-| Projecte | Descripció | Estat |
-|---|---|---|
-| Projecte 1 | ... | En curs |
+n) Mantenir un esperit constant d’innovació i actualització en l’àmbit del sector informàtic.
 
-## Objectius
+### Resultats d'aprenentatge i criteris d'avaluació
 
-## Contacte o enllaços
-```
+1713.RA5. Transmet informació amb claredat, de manera ordenada i estructurada.
 
-Pots afegir una imatge o avatar, sempre que tinguis dret a utilitzar-lo i que no exposi informació que no vulguis fer pública.
+- 5.1 Manté una actitud ordenada i metòdica en la transmissió de la informació.
 
-## Tasques
+### Continguts
 
-### 1. Planificar
+- Control de versions.
+- Edició de documentació amb Markdown.
 
-Abans d'escriure, defineix:
+### Capacitats clau
 
-- Quin nom o àlies vols mostrar.
-- Tres competències actuals o en desenvolupament.
-- Tres tecnologies que vols aprendre.
-- Dos projectes de classe que podràs documentar.
-- Un objectiu professional a curt termini.
+- Autonomia
+- Organització del treball
+- Responsabilitat
 
-### 2. Editar en local
+### Semàfor ús de la IA
 
-1. Obre el repositori amb Visual Studio Code.
-2. Reescriu el `README.md` amb contingut propi.
-3. Utilitza la previsualització Markdown.
-4. Revisa els enllaços i la informació pública.
-5. Desa el canvi i consulta `git diff`.
-6. Fes com a mínim dos commits amb missatges concrets, per exemple:
+🟠 Aquesta activitat permet un ús parcial o restringit.
 
-```bash
-git add README.md
-git commit -m "Afegeix perfil professional"
-git push
-```
+- Permès per com a eina de suport en la millora de la redacció dels informes, cerca preliminar d'informació, estructuració d'idees o explicació de conceptes teòrics complexos.
+- Condicions: Cal processar, entendre i validar sempre els resultats rebuts. **Està totalment prohibit copiar l'enunciat d'un exercici directament al xat de la IA i enganxar la resposta generada** per al lliurament final sense treball propi ni anàlisi crítica.
 
-```bash
-git add README.md
-git commit -m "Millora estructura i enllaços del perfil"
-git push
-```
+## Enunciat de l'activitat
 
-### 3. Revisar el perfil publicat
+Heu de crear un repositori públic a GitHub que tingui **exactament el mateix nom que el vostre usuari de GitHub**. Aquest repositori serà la vostra pàgina de perfil professional i ha d'incloure un fitxer `README.md` amb informació personal i professional.
 
-Obre el repositori a GitHub com si fossis una persona externa i comprova:
+És habitual que els professionals del sector, així com els estudiants utilitzin el perfil per tenir una presència en línia que reflecteixi les seves habilitats, interessos i projectes.
 
-- El títol identifica clarament el perfil.
-- La informació més important apareix al principi.
-- El text no conté faltes greus ni dades sensibles.
-- Els enllaços funcionen.
-- La taula i les llistes es renderitzen correctament.
-- L'historial mostra una evolució real.
+Alguns exemples de perfils professionals a GitHub que podeu consultar són:
 
-### 4. Presentar
+- [https://github.com/joseluisgs](https://github.com/joseluisgs)
+- [https://github.com/DiplomaticRobot](https://github.com/DiplomaticRobot)
+- [https://github.com/17tayyy](https://github.com/17tayyy)
+- [https://github.com/carlesalonso](https://github.com/carlesalonso)
 
-Fes una presentació d'un minut que inclogui:
+### Contingut que ha d'incloure el repositori
 
-1. Qui ets i què estudies.
-2. Què mostra el repositori.
-3. Quin canvi has fet en local i com l'has pujat.
-4. Quin aspecte continuaràs millorant.
+El repositori final ha de contenir una presentació personal ben estructurada, amb apartats com:
 
-## Lliurament
+- Qui sóc.
+- Què estic estudiant i què vull aprendre.
+- Les competències i tecnologies relacionades amb SMX.
+- Els meus projectes o pràctiques.
+- Interesses personals i objectius professionals.
+- Informació de contacte o enllaços rellevants.
 
-Lliura al professorat:
+> Podeu afegir imatges, TAGS, enllaços a projectes, i qualsevol altre element que considereu rellevant per mostrar la vostra identitat professional.
 
-- URL del repositori de perfil.
-- Una còpia o exportació del `README.md`, si es demana.
-- Historial visible amb almenys 5 commits en total.
-- Autoavaluació de 5-10 línies.
+### Procés de treball
 
-## Rúbrica específica
+1. Crear el repositori de tipus públic.
+2. Clonar el repositori al nostre ordinador.
+3. Editar el fitxer `README.md` amb Visual Studio Code.
+4. Fer canvis i commits petits i descriptius.
+5. Sincronitzar el repositori amb GitHub.
+6. Revisar el resultat final i millorar la presentació.
 
-| Aspecte | Excel·lent | Assolit | En procés |
-|---|---|---|---|
-| Perfil | Clar, personal i professional | Compleix l'estructura mínima | Incomplet o difícil d'entendre |
-| Markdown | Sintaxi variada i ben renderitzada | Usa la sintaxi bàsica | Presenta errors freqüents |
-| Git | Historial coherent i sincronització autònoma | Fa el flux amb alguna ajuda | No pot explicar el flux |
-| Seguretat | No exposa dades sensibles | Revisa la informació pública | Publica dades inadequades |
-| Revisió | Millora el perfil a partir de feedback | Fa una revisió bàsica | No incorpora revisions |
+### Resultat esperat
+
+L'objectiu és obtenir un repositori professional, net i ben organitzat, que permeti a qualsevol persona comprendre ràpidament qui som, què estem aprenent i quines habilitats volem reforçar.
+
+## Evidències
+
+Lliurament a la tasca del Moodle corresponent:
+
+- La URL del vostre compte de GitHub.
+
+## Materials i enllaços de suport
+
+- Guia [02-comandes git](guies/02-comandes-git.md)
+
+- Guia [03-Markdown](guies/03-markdown.md)
+
+- [Creting a GitHub Profile README for Students. Medium](https://laxmena.medium.com/creating-a-github-profile-readme-for-graduate-students-f51c2ef2f651)
+
+- GitHub Docs [Managing your profile README](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)
