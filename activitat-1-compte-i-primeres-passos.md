@@ -6,7 +6,7 @@ Començarem preparant les eines que farem servir durant el projecte. Crearàs un
 
 ### Durada de l'activitat
 
-- 2 hores, en 1 sessió de 2 hores.
+- 2 hores (inclou presentació del projecte).
 
 ### Objectius de l'activitat
 

@@ -18,7 +18,7 @@ En el món dels sistemes microinformàtics i les xarxes, els tècnics treballen 
 
 ![Git i GitHub](./media/projecte2_01.png)
 
-Aquest projecte és una primera aproximació pràctica a Git, GitHub, Visual Studio Code i Markdown. Al llarg del curs, treballarem habitualment amb aquestes eines, i aquest segon projecte serveix per introduir-vos a aquestes tecnologies i a la metodologia de treball que utilitzarem.
+Ara farem una primera aproximació pràctica a Git, GitHub, Visual Studio Code i Markdown. Al llarg del curs, treballarem habitualment amb aquestes eines, i aquest segon projecte serveix per introduir-vos a aquestes tecnologies i a la metodologia de treball que utilitzarem.
 
 ## Repte
 
