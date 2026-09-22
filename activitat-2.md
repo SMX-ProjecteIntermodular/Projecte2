@@ -62,6 +62,7 @@ Crea el fitxer `fitxa-tecnica.md` dins del repositori de pràctiques amb aquesta
 
 1. Pas inicial.
 2. Segon pas.
+...
 
 ## Comprovacions
 
@@ -81,9 +82,8 @@ Crea el fitxer `fitxa-tecnica.md` dins del repositori de pràctiques amb aquesta
 ```text
 Comanda o sortida d'exemple
 ```
-```
 
-El tema pot ser una instal·lació de programari, la configuració d'una xarxa petita o una pràctica feta a classe. No incloguis contrasenyes ni adreces personals.
+El tema pot ser una instal·lació de programari, la configuració d'una xarxa petita o una pràctica feta a classe. Inclou alguna imatge per il·lustrar el procés.
 
 ## Tasques
 
@@ -93,7 +93,7 @@ El tema pot ser una instal·lació de programari, la configuració d'una xarxa p
 2. Escriu el títol i l'objectiu.
 3. Afegeix una llista ordenada de passos.
 4. Afegeix una llista de comprovació.
-5. Inclou una taula i un enllaç.
+5. Inclou una taula, una imatge i un enllaç.
 6. Insereix una comanda dins d'un bloc de codi.
 7. Obre la previsualització amb `Ctrl+Shift+V` i revisa el resultat.
 
@@ -129,19 +129,18 @@ git push
 Intercanvia el repositori amb una parella i revisa:
 
 - Els títols segueixen una jerarquia clara.
-- Les llistes i la taula es veuen correctament.
+- Les llistes, les imatges i la taula es veuen correctament.
 - Les instruccions es poden seguir.
 - Els enllaços funcionen.
-- No hi ha dades sensibles.
 - Els commits expliquen canvis reals.
 
-Fes una millora a partir del retorn i registra-la amb un commit nou.
+Introdueix alguna millora a partir del retorn i registra-la amb un commit nou.
 
 ## Evidències
 
 Lliurament a la tasca del Moodle corresponent:
 
-- L'enllaç al repositori amb el primer canvi fet al `README.md`.
+- L'enllaç al repositori amb l'historial de canvis.
 
 ## Materials i enllaços de suport
 
