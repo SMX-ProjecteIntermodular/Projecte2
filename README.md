@@ -55,7 +55,7 @@ RA5. Transmet informació amb claredat, de manera ordenada i estructurada.
 
 ## Organització i durada
 
-La durada total és de **12 hores**, distribuïdes en **dues setmanes**, amb **3 sessions de 2 hores cada setmana**.
+La durada total és de **10 hores**, distribuïdes en **dues setmanes**:
 
 | Setmana | Sessió | Activitat   | Continguts                           | Producte                           |
 |---      |---:    |---          |---                                   |---                                 |
