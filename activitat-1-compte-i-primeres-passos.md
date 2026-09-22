@@ -1,41 +1,55 @@
 # Activitat 1. El primer repositori: GitHub i Visual Studio Code
 
-**Durada:** 2 hores, en 1 sessió de 2 hores  
-**Modalitat:** pràctica guiada individual  
-**Prerequisits:** cap
-
-## Situació
+## Presentació de l'activitat
 
 Començarem preparant les eines que farem servir durant el projecte. Crearàs un compte de GitHub, instal·laràs Git i connectaràs un repositori remot amb una carpeta local oberta amb Visual Studio Code.
 
-## Objectius
+### Durada de l'activitat
+
+- 2 hores, en 1 sessió de 2 hores.
+
+### Objectius de l'activitat
 
 - Crear un compte de GitHub i configurar-lo de manera segura.
-- Instal·lar Git i Visual Studio Code.
-- Configurar el nom i el correu de Git.
 - Crear un repositori a GitHub.
 - Clonar-lo i obrir-lo amb Visual Studio Code.
-- Fer i sincronitzar el primer commit.
+- Configuració bàsica de Git
 
-## Tasques
+### Competències treballades
+
+### Resultats d'aprenentatge i criteris d'avaluació
+
+### Continguts
+
+### Capacitats clau
+
+- Autonomia
+- Organització del treball
+- Responsabilitat
+
+### Semàfor ús de la IA
+
+🟠 Aquesta activitat permet un ús parcial o restringit.
+
+- Permès per com a eina de suport en la millora de la redacció dels informes, cerca preliminar d'informació, estructuració d'idees o explicació de conceptes teòrics complexos.
+- Condicions: Cal processar, entendre i validar sempre els resultats rebuts. **Està totalment prohibit copiar l'enunciat d'un exercici directament al xat de la IA i enganxar la resposta generada** per al lliurament final sense treball propi ni anàlisi crítica.
+
+## Enunciat de l'activitat
 
 ### 1. Crear el compte de GitHub
 
-1. Accedeix a [GitHub](https://github.com/) i crea un compte amb el correu indicat pel centre.
-2. Tria un nom d'usuari professional i fàcil de recordar.
-3. Verifica el correu i activa l'autenticació en dos passos si és possible.
-4. Completa només la informació pública necessària.
-5. No comparteixis mai la contrasenya.
+1. Accedeix a [GitHub](https://github.com/) i crea un compte.
+2. Tria un nom d'usuari professional i fàcil de recordar. Propostes: nom.cognom, nomcognom, nomcognom22, nomcognom22, etc. Com a primer correu caldrà que usis un de personal, això et permetrà mantenir el compte quan ja no siguis alumne de l'escola.
+3. Verifica el correu.
+4. Afegeix com a segon correu, el teu correu d'escola i verifica'l.
 
 ### 2. Crear i clonar un repositori
 
-1. A GitHub, crea un repositori anomenat `perfil-git-nom-cognom`.
+1. A GitHub, crea un repositori anomenat `primer_repositori` i indica que és un repositori públic.
 2. Afegeix una descripció curta.
 3. Marca l'opció per crear un `README.md`.
-4. Mantén-lo privat mentre fas les primeres proves, si el professorat ho indica.
-5. Copia l'URL HTTPS del repositori.
-6. A Visual Studio Code, obre la paleta d'ordres amb `Ctrl+Shift+P` i tria **Git: Clone**.
-7. Enganxa l'URL, escull una carpeta de treball i obre el repositori clonat.
+4. Copia l'URL HTTPS del repositori
+5. A Visual Studio Code clona el repositori a la carpeta `Documents`.
 
 ### 3. Fer el primer canvi
 
@@ -55,26 +69,14 @@ Desa el fitxer i, des de l'apartat **Control de codi font** de Visual Studio Cod
 
 ## Evidències
 
-Lliura:
+Lliurament a la tasca del Moodle corresponent:
 
-- L'enllaç al repositori.
-- Una captura on es vegi el repositori obert a Visual Studio Code.
-- Una captura de GitHub amb el primer canvi publicat.
-- Una frase explicant què diferencia Git de GitHub.
+- L'enllaç al repositori amb el primer canvi fet al `README.md`.
 
-## Comprovació ràpida
+## Materials i enllaços de suport
 
-Abans de donar l'activitat per acabada, respon:
+- Guia [01-iniciació git GitHub i Visual Studio Code](guies/01-iniciacio-git-github-vscode.md)
 
-- Puc trobar el meu repositori local a l'ordinador?
-- El repositori local està connectat amb el remot?
-- Puc veure el meu commit a GitHub?
-- He publicat alguna dada que no hauria de ser pública?
+- Pàgina oficial de [GitHub](https://github.com/)
 
-## Criteris d'èxit
-
-- El compte funciona i té un nom d'usuari professional.
-- Git i Visual Studio Code estan instal·lats.
-- El repositori local i el remot estan connectats.
-- El primer canvi es pot veure a GitHub.
-- El commit descriu el canvi realitzat.
+- Luis Llamas. [Curso de git](https://www.luisllamas.es/curso-git/)
