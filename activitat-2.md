@@ -146,4 +146,6 @@ Lliurament a la tasca del Moodle corresponent:
 
 - Guia [02-comandes git](guies/02-comandes-git.md)
 
+- Guia [03-Markdown](guies/03-markdown.md)
+
 - Luis Llamas. [Curso de git](https://www.luisllamas.es/curso-git/)
