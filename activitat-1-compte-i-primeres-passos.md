@@ -27,29 +27,7 @@ Començarem preparant les eines que farem servir durant el projecte. Crearàs un
 4. Completa només la informació pública necessària.
 5. No comparteixis mai la contrasenya.
 
-### 2. Preparar les eines
-
-Instal·la Git i Visual Studio Code seguint la [guia d'iniciació](guias/01-iniciacio-git-github-vscode.md). Obre el terminal integrat de Visual Studio Code i comprova les versions:
-
-```bash
-git --version
-code --version
-```
-
-Configura la identitat de Git, substituint les dades per les teves:
-
-```bash
-git config --global user.name "Nom Cognom"
-git config --global user.email "correu@exemple.cat"
-```
-
-Comprova la configuració:
-
-```bash
-git config --global --list
-```
-
-### 3. Crear i clonar un repositori
+### 2. Crear i clonar un repositori
 
 1. A GitHub, crea un repositori anomenat `perfil-git-nom-cognom`.
 2. Afegeix una descripció curta.
@@ -59,7 +37,7 @@ git config --global --list
 6. A Visual Studio Code, obre la paleta d'ordres amb `Ctrl+Shift+P` i tria **Git: Clone**.
 7. Enganxa l'URL, escull una carpeta de treball i obre el repositori clonat.
 
-### 4. Fer el primer canvi
+### 3. Fer el primer canvi
 
 Edita el `README.md` i afegeix:
 
