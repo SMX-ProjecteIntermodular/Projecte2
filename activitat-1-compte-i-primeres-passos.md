@@ -2,7 +2,11 @@
 
 ## Presentació de l'activitat
 
-Començarem preparant les eines que farem servir durant el projecte. Crearàs un compte de GitHub, instal·laràs Git i connectaràs un repositori remot amb una carpeta local oberta amb Visual Studio Code.
+Com s'ha indicat en la introducció, aquest projecte introdueix l'ús de Git, GitHub, Visual Studio Code i Markdown com a eines habituals per documentar i compartir el treball tècnic. En l'àmbit dels sistemes microinformàtics i les xarxes, és important saber organitzar els fitxers, conservar l'historial dels canvis i publicar informació de manera clara i segura.
+
+En aquesta primera activitat prepararàs l'entorn de treball: crearàs i configuraràs el teu compte de GitHub, obriràs el teu primer repositori amb Visual Studio Code i hi publicaràs un canvi senzill. Aquest primer contacte serà la base de les activitats següents, en què practicaràs la documentació amb Markdown, el control de versions en local i la creació d'un repositori de perfil professional.
+
+El resultat no és només tenir un compte creat, sinó entendre el recorregut bàsic d'un canvi: editar un fitxer, revisar-lo, registrar-lo amb un commit i sincronitzar-lo amb GitHub.
 
 ### Durada de l'activitat
 
@@ -17,9 +21,17 @@ Començarem preparant les eines que farem servir durant el projecte. Crearàs un
 
 ### Competències treballades
 
+m) Organitzar i desenvolupar el treball assignat mantenint unes relacions professionals adequades en l’entorn de treball.
+
 ### Resultats d'aprenentatge i criteris d'avaluació
 
+1713.RA5. Transmet informació amb claredat, de manera ordenada i estructurada.
+
+- 5.1 Manté una actitud ordenada i metòdica en la transmissió de la informació.
+
 ### Continguts
+
+- Control de versions.
 
 ### Capacitats clau
 
@@ -39,9 +51,11 @@ Començarem preparant les eines que farem servir durant el projecte. Crearàs un
 ### 1. Crear el compte de GitHub
 
 1. Accedeix a [GitHub](https://github.com/) i crea un compte.
-2. Tria un nom d'usuari professional i fàcil de recordar. Propostes: nom.cognom, nomcognom, nomcognom22, nomcognom22, etc. Com a primer correu caldrà que usis un de personal, això et permetrà mantenir el compte quan ja no siguis alumne de l'escola.
-3. Verifica el correu.
+2. Tria un nom d'usuari adient i fàcil de recordar. Propostes: nom.cognom, nomcognom, nomcognom22, nomcognom22, etc.
+3. Associa un correu electrònic personal i posteriorment, el correu d'escola.
 4. Afegeix com a segon correu, el teu correu d'escola i verifica'l.
+
+> 💡 Associar dos correus permet que mantingueu l'accés al compte de GitHub quan no disposeu de correu d'escola en acabar els estudis.
 
 ### 2. Crear i clonar un repositori
 
