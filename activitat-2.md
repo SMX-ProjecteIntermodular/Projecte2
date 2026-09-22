@@ -140,7 +140,7 @@ Introdueix alguna millora a partir del retorn i registra-la amb un commit nou.
 
 Lliurament a la tasca del Moodle corresponent:
 
-- L'enllaç al repositori amb l'historial de canvis.
+- L'enllaç al repositori amb l'historial de canvis (commits).
 
 ## Materials i enllaços de suport
 
