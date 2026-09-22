@@ -2,6 +2,16 @@
 
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
+## Comentaris reunió
+
+- Projecte totalment individual, no hi ha grups.
+- Durada 10 hores perquè el 9 d'octubre hi ha la sortida.
+- Tasques a realitzar:
+
+  - Creació del compte de GitHub i primer repositori (2 hores)
+  - Un primer repositori de prova amb un `README.md` senzill (4 hores)
+  - Repositori de perfil amb un `README.md` amb la presentació de l'alumne (4 hores).
+
 ## Presentació
 
 En el món dels sistemes microinformàtics i les xarxes, els tècnics treballen sovint amb fitxers de configuració, scripts, documentació i projectes que evolucionen amb el temps. Git permet registrar aquests canvis, recuperar versions anteriors i treballar amb més seguretat. GitHub afegeix un espai remot per compartir codi i documentació, col·laborar amb altres persones i construir una mostra pública del propi treball.

@@ -1,7 +1,7 @@
 # Activitat 2. Documentar i versionar: Markdown i Git local
 
 **Durada:** 4 hores, en 2 sessions de 2 hores  
-**Modalitat:** pràctica individual amb revisió entre iguals  
+**Modalitat:** pràctica individual 
 **Prerequisits:** Activitat 1 finalitzada
 
 ## Situació

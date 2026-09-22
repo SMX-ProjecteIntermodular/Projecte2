@@ -1,6 +1,6 @@
 # Activitat 1. El primer repositori: GitHub i Visual Studio Code
 
-**Durada:** 4 hores, en 2 sessions de 2 hores  
+**Durada:** 2 hores, en 1 sessió de 2 hores  
 **Modalitat:** pràctica guiada individual  
 **Prerequisits:** cap
 
