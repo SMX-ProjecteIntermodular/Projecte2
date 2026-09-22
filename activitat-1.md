@@ -69,9 +69,9 @@ m) Organitzar i desenvolupar el treball assignat mantenint unes relacions profes
 
 Edita el `README.md` i afegeix:
 
-- El teu nom o àlies acadèmic.
-- El cicle formatiu que curses.
-- Una frase sobre què vols aprendre.
+- Projecte 2
+- El teu nom i cognoms.
+- Classe i curs.
 
 Desa el fitxer i, des de l'apartat **Control de codi font** de Visual Studio Code:
 
@@ -85,7 +85,7 @@ Desa el fitxer i, des de l'apartat **Control de codi font** de Visual Studio Cod
 
 Lliurament a la tasca del Moodle corresponent:
 
-- L'enllaç al repositori amb el primer canvi fet al `README.md`.
+- Evidència del repositori amb el primer canvi fet al `README.md`. Cal que hi hagi una captura de pantalla on es vegi clarament el vostre nom d'usuari i l'estat de l'arxiu `README.md` amb el canvi realitzat.
 
 ## Materials i enllaços de suport
 
