@@ -83,9 +83,13 @@ Desa el fitxer i, des de l'apartat **Control de codi font** de Visual Studio Cod
 
 ## Evidències
 
-Lliurament a la tasca del Moodle corresponent:
+Lliurament a la tasca del Moodle d'un document (GoogleDocs) que inclogui els següents aspectes:
 
-- Evidència del repositori amb el primer canvi fet al `README.md`. Cal que hi hagi una captura de pantalla on es vegi clarament el vostre nom d'usuari i l'estat de l'arxiu `README.md` amb el canvi realitzat.
+- Captura de pantalla de "Setting/Your Profile"
+- Captura de pantalla de "Settings/Emails" mostrant els correus afegits i verificats.
+- Enllaç al repositori creat.
+
+Les captures de pantalla han de mostrar la informació requerida i un títol que indiqui que és la pantalla. El document ha de tenir una portada amb el títol de l'activitat, el nom del projecte, el teu nom i la data.
 
 ## Materials i enllaços de suport
 
