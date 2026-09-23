@@ -12,7 +12,7 @@
 
 ## Introducció al cas
 
-En el món de la informàtica, es treballa amb una gran quantitat d'arxius que evolucionen amb el temps. En el camp dels sistemes, els tècnics treballen sovint amb fitxers de configuració, scripts, documentació i projectes que no són arxius estàtics. Per una altra banda, els desenvolupadors treballen amb arxius de codi font, documentació i altres recursos que també van patint canvis tant a la fase de desenvolupament com a la de manteniment. Un problema habitual quan es treballa amb aquest tipus d'informació és assegurar una forma àgil de mantenir la informació actualitzada, registrar els canvis realitzats (qui, quan i què) i tenir la possibilitat de recuperar versions anteriors. Per aquest motiu, va nèixer el concepte de control de versions, que permet gestionar els canvis en els arxius i projectes de manera eficient.
+En el món de la informàtica, es treballa amb una gran quantitat d'arxius que evolucionen amb el temps. En el camp dels sistemes, els tècnics treballen sovint amb fitxers de configuració, scripts, documentació i projectes que no són arxius estàtics. Per una altra banda, els desenvolupadors treballen amb arxius de codi font, documentació i altres recursos que també van patint canvis tant a la fase de desenvolupament com a la de manteniment. Un problema habitual quan es treballa amb aquest tipus d'informació és assegurar una forma àgil de mantenir la informació actualitzada, registrar els canvis realitzats (qui, quan i què) i tenir la possibilitat de recuperar versions anteriors. Per aquest motiu, va nèixer el concepte de control de versions, que permet gestionar els canvis en els arxius i projectes de manera eficient. En aquest vídeo teniu una petita introducció al tema [Control de versions](https://youtu.be/8HSjmgeJxqg?si=HGjIYn3TKaHxp190).
 
 De totes les opcions disponibles, el més popular i àmpliament utilitzat avui dia és Git. És un sistema de control de versions distribuït que permet gestionar el codi font i altres fitxers d'un projecte. Git registra aquests canvis, recuperant versions anteriors i treballar amb més seguretat.
 
@@ -20,7 +20,7 @@ De totes les opcions disponibles, el més popular i àmpliament utilitzat avui d
 
 ![Git i GitHub](./media/projecte2_01.png)
 
-Ara farem una primera aproximació pràctica a Git, GitHub, Visual Studio Code i Markdown. Al llarg del curs, treballarem habitualment amb aquestes eines, i aquest segon projecte serveix per introduir-vos a aquestes tecnologies i a la metodologia de treball que utilitzarem.
+En aquest projecte farem una primera aproximació pràctica a Git, GitHub, Visual Studio Code i Markdown. Al llarg del curs, treballarem habitualment amb aquestes eines.
 
 ## Activitats del projecte
 
@@ -30,7 +30,7 @@ Ara farem una primera aproximació pràctica a Git, GitHub, Visual Studio Code i
 
 ## Què cal lliurar
 
-Al Moodle cal lliurar les evidències corresponents a cadascuna de les activitats.
+Al Moodle de l'assignatura teniu les tasques per lliurar les evidències corresponents a cadascuna de les activitats.
 
 ## Avaluació
 
@@ -44,7 +44,7 @@ En aquest projecte totes les tasques es realitzaran de manera **individual**.
 
 ## Durada i temporització
 
-El projecte té un durada de 10 hores, repartides en cinc sessions de 2 hores cadascuna. La temporització és la següent:
+El projecte té un durada de **10 hores**, repartides en cinc sessions de 2 hores cadascuna. La temporització és la següent:
 
 | Sessió | Data       | Activitat   |
 |---     |---         |---          |
