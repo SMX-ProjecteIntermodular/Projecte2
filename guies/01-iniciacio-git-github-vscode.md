@@ -65,7 +65,7 @@ git config --global user.name "El vostre nom"
 git config --global user.email "el_vostre_correu_electrònic"
 ```
 
-Això, aquest nom i correu electrònic s'utilitzaran per a identificar els vostres commits. Si voleu canviar aquesta informació més endavant, podeu fer-ho amb les mateixes comandes. No té perquè coincidir amb el nom i correu electrònic del vostre compte de GitHub, però és recomanable que ho faci per a que els vostres commits estiguin associats al vostre compte de GitHub.
+Això, aquest nom i correu electrònic s'utilitzaran per a identificar els vostres commits. Si voleu canviar aquesta informació més endavant, podeu fer-ho amb les mateixes comandes. No té per què coincidir amb el nom i correu electrònic del vostre compte de GitHub, però és recomanable que ho faci perquè els vostres commits estiguin associats al vostre compte de GitHub.
 
 Aquesta configuració global s'aplica a tots els repositoris del vostre ordinador, però requereix permisos d'administrador. Si no els teniu, o bé, si en un repositori voleu utilitzar un nom i correu electrònic diferents, podeu configurar-los només per a aquest repositori amb les comandes següents que podeu executar obrint un terminal dins de l'editor, un cop heu obert el projecte amb Visual Studio Code:
 
@@ -86,7 +86,7 @@ Existeixen alternatives com GitLab o Bitbucket, però GitHub és la més popular
 
 Per a crear un compte a GitHub, cal anar a la pàgina principal de [GitHub](https://github.com) i clicar a [Sign up](https://github.com/signup).
 
-Cal omplir les dades, on primer de tot, cal indicar un correu electrònic, com dona problemes si seleccioneu el correu d'escola, useu un correu personal, un cop creat el compte, ja el canviarem. A continuació, cal indicar una contrasenya segura, **apunteu-la en un lloc segur o useu un gestor de contrasenyes**. Després, cal indicar un nom d'usuari,useu sempre noms identificatius i eviteu noms suposadament graciosos o de mal gust. Finalment, cal indicar si voleu rebre informació de GitHub i clicar a "Create account".
+Cal omplir les dades, on primer de tot cal indicar un correu electrònic. Com que dona problemes si seleccioneu el correu d'escola, useu un correu personal; un cop creat el compte, ja el canviarem. A continuació, cal indicar una contrasenya segura, **apunteu-la en un lloc segur o useu un gestor de contrasenyes**. Després, cal indicar un nom d'usuari, useu sempre noms identificatius i eviteu noms suposadament graciosos o de mal gust. Finalment, cal indicar si voleu rebre informació de GitHub i clicar a "Create account".
 
 ![Sign up](./img/signup.png)
 
@@ -95,7 +95,7 @@ Un cop creat el compte, cal verificar el correu electrònic. Per a això, cal an
 Un cop ja tinguem el compte creat, entrem a la pàgina del nostre perfil i anem a "Settings"
 ![Settings](./img/settings.png)
 
-Allà anem a "Emails" i afegim el correu electrònic de l'escola a l'opció "Add email address", s'enviarà un coreu de verificació al correu electrònic afegit, cal clicar a l'enllaç de verificació per a completar el procés. Al final del procés, hem de tenir el dos correus com verificats.
+Allà anem a "Emails" i afegim el correu electrònic de l'escola a l'opció "Add email address". S'enviarà un correu de verificació al correu electrònic afegit; cal clicar a l'enllaç de verificació per a completar el procés. Al final del procés, hem de tenir els dos correus com a verificats.
 ![Emails](./img/emails.png)
 
 Ara anem a l'opció "Primary email address" i seleccionem el correu electrònic de l'escola com a correu electrònic principal. D'aquesta manera, les notificacions de GitHub s'enviaran al correu electrònic de l'escola.
@@ -115,7 +115,7 @@ També us pregunta si voleu afegir un fitxer .gitignore i una llicència. El fit
 
 #### L'arxiu README.md
 
-A cada repositori de GitHub a més del codi font, arxius, etc., és recomanable tenir un arxiu README.md que és un fitxer de text que conté informació sobre el projecte. Aquest fitxer es mostra a la pàgina principal del repositori i és el primer lloc on els usuaris miren per a obtenir informació sobre el projecte. De fet,al crear el repositori, GitHub ofereix l'opció de crear aquest fitxer README.md i l'habitual, és que ho seleccionem.
+A cada repositori de GitHub, a més del codi font i d'altres arxius, és recomanable tenir un arxiu README.md amb informació sobre el projecte. Aquest fitxer es mostra a la pàgina principal del repositori i és el primer lloc on els usuaris miren per obtenir-ne informació. De fet, en crear el repositori, GitHub ofereix l'opció de crear aquest fitxer README.md i l'habitual és seleccionar-la.
 
 I quin format té aquest fitxer? El format és Markdown, que és un llenguatge de marques lleuger que permet formatar text de manera senzilla. Per exemple, per a crear un títol, cal usar el símbol `#` seguit del títol. Per a crear una llista, cal usar el símbol `-` seguit de l'element de la llista.
 
