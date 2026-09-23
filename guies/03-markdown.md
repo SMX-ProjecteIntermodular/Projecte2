@@ -83,7 +83,7 @@ Un enllaç té un text visible i una adreça:
 Per enllaçar un fitxer del mateix repositori, fes servir una ruta relativa:
 
 ```markdown
-[Consulta la guia de comandes](guies/02-comandes-git.md)
+[Consulta la guia de comandes](02-comandes-git.md)
 ```
 
 Una ruta relativa parteix de la carpeta on es troba el fitxer actual. Comprova les majúscules, minúscules i extensions: `guies/02-comandes-git.md` no és el mateix que `Guies/02-comandes-git.md` en tots els sistemes.

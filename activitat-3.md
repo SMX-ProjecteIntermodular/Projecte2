@@ -99,6 +99,6 @@ Lliurament a la tasca del Moodle corresponent:
 
 - Guia [03-Markdown](guies/03-markdown.md)
 
-- [Creting a GitHub Profile README for Students. Medium](https://laxmena.medium.com/creating-a-github-profile-readme-for-graduate-students-f51c2ef2f651)
+- [Creating a GitHub Profile README for Students. Medium](https://laxmena.medium.com/creating-a-github-profile-readme-for-graduate-students-f51c2ef2f651)
 
 - GitHub Docs [Managing your profile README](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)

@@ -100,7 +100,7 @@ El tema pot ser una instal·lació de programari, la configuració d'una xarxa p
 
 ### 2. Practicar Git en local
 
-Obre el terminal a la carpeta del repositori i executa les ordres de la [guia de comandes](guias/02-comandes-git.md). Després de cada canvi, observa què informa Git.
+Obre el terminal a la carpeta del repositori i executa les ordres de la [guia de comandes](guies/02-comandes-git.md). Després de cada canvi, observa què informa Git.
 
 Flux mínim que has de practicar:
 

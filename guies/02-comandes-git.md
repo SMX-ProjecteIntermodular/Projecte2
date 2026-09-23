@@ -40,7 +40,7 @@ El commit és l'acció de "fer una foto" del projecte en aquell moment. Aquí é
 
 A més, la sincronització amb el repositori remot (GitHub) es fa amb les comandes `git push` (per pujar canvis) i `git pull` (per baixar canvis).
 
-### Add i Commit per per terminal
+### Add i Commit per terminal
 
 1. Afegir els canvis a la zona de preparació (Staging Area):  
    Això indica a Git quins fitxers volem incloure en la següent "foto".  

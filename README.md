@@ -16,7 +16,7 @@ En el món de la informàtica, es treballa amb una gran quantitat d'arxius que e
 
 De totes les opcions disponibles, el més popular i àmpliament utilitzat avui dia és Git. És un sistema de control de versions distribuït que permet gestionar el codi font i altres fitxers d'un projecte. Git registra aquests canvis, recuperant versions anteriors i treballar amb més seguretat.
 
- D'altra banda,GitHub afegeix un espai remot per compartir codi i documentació, col·laborar amb altres persones i construir una mostra pública del propi treball. GitHub usa el sistema de control de versions Git per la gestió de les versions i permet sincronitzar els projectes locals amb un repositori remot. A més, GitHub ofereix eines per a la gestió de projectes, seguiment d'errors i col·laboració en equip.
+ D'altra banda, GitHub afegeix un espai remot per compartir codi i documentació, col·laborar amb altres persones i construir una mostra pública del propi treball. GitHub usa el sistema de control de versions Git per la gestió de les versions i permet sincronitzar els projectes locals amb un repositori remot. A més, GitHub ofereix eines per a la gestió de projectes, seguiment d'errors i col·laboració en equip.
 
 ![Git i GitHub](./media/projecte2_01.png)
 
@@ -40,7 +40,7 @@ $$ \text{Nota final} = 0.2 \cdot \text{Activitat 1} + 0.4 \cdot \text{Activitat 
 
 ## Organització del treball
 
-En aquest projecte totes les tasques es realizaran de manera **individual**.
+En aquest projecte totes les tasques es realitzaran de manera **individual**.
 
 ## Durada i temporització
 
@@ -52,4 +52,4 @@ El projecte té un durada de 10 hores, repartides en cinc sessions de 2 hores ca
 | 2      | 29/09/2026 | Activitat 2 |
 | 3      | 02/10/2026 | Activitat 3 |
 | 4      | 05/10/2026 | Activitat 3 |
-| 5      | 06/16/2026 | Activitat 3 |
+| 5      | 06/10/2026 | Activitat 3 |
