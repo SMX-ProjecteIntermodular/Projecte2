@@ -113,9 +113,7 @@ git commit -m "Afegeix fitxa tècnica"
 git log --oneline
 ```
 
-Documenta i explica el flux de treball anterior incloent-lo al final del fitxer `fitxa-tecnica.md`. Pots afegir una secció anomenada "Flux de treball amb Git" i descriure els passos que has seguit, com has comprovat l'estat del repositori, què has afegit i com has fet els commits.
-
-Fes com a mínim quatre commits:
+Fes com a mínim tres commits més:
 
 1. `Crea estructura de fitxa tècnica`
 2. `Completa procediment i comprovacions`
