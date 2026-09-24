@@ -80,8 +80,6 @@ Crea el fitxer `fitxa-tecnica.md` dins del repositori de pràctiques amb aquesta
 
 - [Documentació consultada](https://docs.github.com/)
 
-```text
-Comanda o sortida d'exemple
 ```
 
 El tema pot ser una instal·lació de programari, la configuració d'una xarxa petita o una pràctica feta a classe. Inclou alguna imatge per il·lustrar el procés.
