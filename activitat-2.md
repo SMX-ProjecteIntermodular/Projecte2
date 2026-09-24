@@ -109,33 +109,20 @@ git status
 git diff
 git add fitxa-tecnica.md
 git status
-git commit -m "Afegeix fitxa tecnica"
+git commit -m "Afegeix fitxa tècnica"
 git log --oneline
 ```
 
-Fes com a mínim tres commits:
+Documenta i explica el flux de treball anterior incloent-lo al final del fitxer `fitxa-tecnica.md`. Pots afegir una secció anomenada "Flux de treball amb Git" i descriure els passos que has seguit, com has comprovat l'estat del repositori, què has afegit i com has fet els commits.
 
-1. `Crea estructura de fitxa tecnica`
+Fes com a mínim quatre commits:
+
+1. `Crea estructura de fitxa tècnica`
 2. `Completa procediment i comprovacions`
 3. `Revisa format i recursos`
+4. `Afegeix explicació sobre el flux de treball amb Git`
 
-Entre commits, comprova que el canvi que vols registrar és el que esperes. Al final, sincronitza'l:
-
-```bash
-git push
-```
-
-### 3. Revisió entre iguals
-
-Intercanvia el repositori amb una parella i revisa:
-
-- Els títols segueixen una jerarquia clara.
-- Les llistes, les imatges i la taula es veuen correctament.
-- Les instruccions es poden seguir.
-- Els enllaços funcionen.
-- Els commits expliquen canvis reals.
-
-Introdueix alguna millora a partir del retorn i registra-la amb un commit nou.
+Entre commits, comprova que el canvi que vols registrar és el que esperes. Al final, sincronitza'l des del terminal integrat amb ```git push origin main``` o utilitza el botó de sincronització de Visual Studio Code.
 
 ## Evidències
 
