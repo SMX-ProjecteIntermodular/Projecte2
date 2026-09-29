@@ -49,7 +49,7 @@ El projecte té un durada de **10 hores**, repartides en cinc sessions de 2 hore
 | Sessió | Data       | Activitat   |
 |---     |---         |---          |
 | 1      | 28/09/2026 | Activitat 1 |
-| 2      | 29/09/2026 | Activitat 2 |
-| 3      | 02/10/2026 | Activitat 3 |
+| 2      | 02/10/2026 | Activitat 2 |
+| 3      | 05/10/2026 | Activitat 2 |
 | 4      | 05/10/2026 | Activitat 3 |
-| 5      | 06/10/2026 | Activitat 3 |
+| 5      | 13/10/2026 | Activitat 3 |
