@@ -36,7 +36,7 @@ Al Moodle de l'assignatura teniu les tasques per lliurar les evidències corresp
 
 La nota final del projecte es calcularà amb la seguent ponderació:
 
-$$ \text{Nota final} = 0.2 \cdot \text{Activitat 1} + 0.4 \cdot \text{Activitat 2} + 0.4 \cdot \text{Activitat 3} $$
+$$ \text{Nota final} = 0,2 \cdot \text{Activitat 1} + 0,4 \cdot \text{Activitat 2} + 0,4 \cdot \text{Activitat 3} $$
 
 ## Organització del treball
 

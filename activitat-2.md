@@ -80,8 +80,6 @@ Crea el fitxer `fitxa-tecnica.md` dins del repositori de pràctiques amb aquesta
 
 - [Documentació consultada](https://docs.github.com/)
 
-```text
-Comanda o sortida d'exemple
 ```
 
 El tema pot ser una instal·lació de programari, la configuració d'una xarxa petita o una pràctica feta a classe. Inclou alguna imatge per il·lustrar el procés.
@@ -109,33 +107,18 @@ git status
 git diff
 git add fitxa-tecnica.md
 git status
-git commit -m "Afegeix fitxa tecnica"
+git commit -m "Afegeix fitxa tècnica"
 git log --oneline
 ```
 
-Fes com a mínim tres commits:
+Fes com a mínim tres commits més:
 
-1. `Crea estructura de fitxa tecnica`
+1. `Crea estructura de fitxa tècnica`
 2. `Completa procediment i comprovacions`
 3. `Revisa format i recursos`
+4. `Afegeix explicació sobre el flux de treball amb Git`
 
-Entre commits, comprova que el canvi que vols registrar és el que esperes. Al final, sincronitza'l:
-
-```bash
-git push
-```
-
-### 3. Revisió entre iguals
-
-Intercanvia el repositori amb una parella i revisa:
-
-- Els títols segueixen una jerarquia clara.
-- Les llistes, les imatges i la taula es veuen correctament.
-- Les instruccions es poden seguir.
-- Els enllaços funcionen.
-- Els commits expliquen canvis reals.
-
-Introdueix alguna millora a partir del retorn i registra-la amb un commit nou.
+Entre commits, comprova que el canvi que vols registrar és el que esperes. Al final, sincronitza'l des del terminal integrat amb ```git push origin main``` o utilitza el botó de sincronització de Visual Studio Code.
 
 ## Evidències
 
