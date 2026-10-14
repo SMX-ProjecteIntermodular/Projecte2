@@ -95,9 +95,9 @@ Lliurament a la tasca del Moodle corresponent:
 
 ## Materials i enllaços de suport
 
-- Guia [02-comandes git](guies/02-comandes-git.md)
+- Guia [02-comandes git](https://github.com/SMX-ProjecteIntermodular/Guies/blob/main/git-github/02-comandes-git.md)
 
-- Guia [03-Markdown](guies/03-markdown.md)
+- Guia [03-Markdown](https://github.com/SMX-ProjecteIntermodular/Guies/blob/main/git-github/03-markdown.md)
 
 - [Creating a GitHub Profile README for Students. Medium](https://laxmena.medium.com/creating-a-github-profile-readme-for-graduate-students-f51c2ef2f651)
 
