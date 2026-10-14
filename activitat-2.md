@@ -128,8 +128,8 @@ Lliurament a la tasca del Moodle corresponent:
 
 ## Materials i enllaços de suport
 
-- Guia [02-comandes git](https://github.com/SMX-ProjecteIntermodular/Guies/blob/main/02-comandes-git.md)
+- Guia [02-comandes git](https://github.com/SMX-ProjecteIntermodular/Guies/blob/main/git-github/02-comandes-git.md)
 
-- Guia [03-Markdown](https://github.com/SMX-ProjecteIntermodular/Guies/blob/main/03-markdown.md)
+- Guia [03-Markdown](https://github.com/SMX-ProjecteIntermodular/Guies/blob/main/git-github/03-markdown.md)
 
 - Luis Llamas. [Curso de git](https://www.luisllamas.es/curso-git/)
