@@ -93,7 +93,7 @@ Les captures de pantalla han de mostrar la informació requerida i un títol que
 
 ## Materials i enllaços de suport
 
-- Guia [01-iniciació git GitHub i Visual Studio Code](guies/01-iniciacio-git-github-vscode.md)
+- Guia [01-iniciació git GitHub i Visual Studio Code](https://github.com/SMX-ProjecteIntermodular/Guies/blob/main/01-iniciacio-git-github-vscode.md)
 
 - Pàgina oficial de [GitHub](https://github.com/)
 
